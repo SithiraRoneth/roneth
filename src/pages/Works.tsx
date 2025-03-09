@@ -60,7 +60,7 @@ function Works() {
         <div className="relative mt-14 px-6 py-12 md:px-16 md:mt-[7%] md:ml-40 md:py-14 text-white">
             <div className="text-center md:text-left">
                 <h4 className='md:text-xl font-mono md:drop-shadow-lg'>Works</h4>
-                <h2 className='md:text-4xl font-bold md:drop-shadow-lg'>Committed to Quality & Innovation</h2>
+                <h2 className='text-2xl md:text-4xl font-bold md:drop-shadow-lg'>Committed to Quality & Innovation</h2>
             </div>
             <div className="relative flex items-center justify-center mt-8 md:mt-10 md:ml-[-12%]">
                 {currentIndex > 0 && (
