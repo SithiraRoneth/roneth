@@ -22,7 +22,10 @@ function Home() {
                 >
                     Roneth.
                 </motion.h2>
-                <hr className="bg-white w-20 md:w-40 h-[6px] md:h-[8px] my-4 md:my-6 mx-auto md:mx-0"/>
+                <motion.hr className="bg-white w-20 md:w-40 h-[6px] md:h-[8px] my-4 md:my-6 mx-auto md:mx-0"
+                           animate={{ x: [0, 20, 0] }}
+                           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                />
 
 
                 <div className="flex justify-center md:justify-start mt-6 md:mt-10 gap-6">
