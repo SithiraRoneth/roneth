@@ -19,6 +19,11 @@ import react from '../assets/icons/react.png'
 import mdb from '../assets/icons/mongo.png'
 import tc from '../assets/icons/tailwind.png'
 import node from '../assets/icons/node.png'
+import ts from '../assets/icons/typeScript.png'
+import green from '../assets/images/greenShadow.png'
+import chat  from '../assets/images/chat.png'
+import vtec from '../assets/images/vtec.png'
+import gemini from '../assets/images/gemini.png'
 export const assets = {
     about_pic,
     call,
@@ -41,4 +46,9 @@ export const assets = {
     tc,
     react,
     node,
+    ts,
+    green,
+    chat,
+    vtec,
+    gemini,
 }
