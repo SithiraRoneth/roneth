@@ -7,14 +7,14 @@ const projects = [
     {
         image: assets.green,
         name: "Green Shadow",
-        techStack: "React, Tailwind, Spring Boot",
+        techStack: "React, Tailwind, Node, Mongo DB",
         description: "A smart platform to manage crop fields, equipment, and staff, built with React, Redux, JWT, and a Node.js backend for secure and efficient operations.",
         github: "https://github.com/SithiraRoneth/green_shadow_react.git"
     },
     {
         image: assets.gemini,
         name: "Gemini Ai Clone",
-        techStack: "React, Tailwind",
+        techStack: "React, Tailwind CSS",
         description: "A powerful AI chatbot inspired by Google's Gemini, built using React and Tailwind. It offers seamless interactions, natural language processing, and a modern UI.",
         github: "https://github.com/SithiraRoneth/gemini-clone-react.git"
     },
@@ -31,6 +31,13 @@ const projects = [
         techStack: "Java,Mysql,Scene Builder",
         description: "A comprehensive management system for car paint and accident repair services. It streamlines service requests, tracks repair progress, and maintains customer records efficiently",
         github: "https://github.com/SithiraRoneth/vtec-motors.git"
+    },
+    {
+        image: assets.pos,
+        name: "POS System",
+        techStack: "Html, Css, JavaScript,Java EE, Mysql",
+        description: "The POS System is a comprehensive solution for managing sales, inventory, and transactions. Built with HTML, CSS, JavaScript, Java EE, and MySQL, it ensures a seamless and efficient business operation",
+        github: "https://github.com/SithiraRoneth/POS-System-JS.git",
     }
 ];
 
