@@ -90,9 +90,9 @@ function About() {
                 <div className="text-center md:text-left md:ml-[10%]">
                     <h3 className="md:text-xl font-mono">Skills</h3>
                     <br/>
-                    <h2 className="text-4xl font-bold md:drop-shadow-lg">Explore, Master,</h2>
-                    <h2 className="text-4xl font-bold md:drop-shadow-lg"> Apply, and Evolve</h2>
-                    <h2 className="text-4xl font-bold md:drop-shadow-lg">One Skill at a Time</h2>
+                    <h2 className="text-2xl md:text-4xl font-bold md:drop-shadow-lg">Explore, Master,</h2>
+                    <h2 className="text-2xl md:text-4xl font-bold md:drop-shadow-lg"> Apply, and Evolve</h2>
+                    <h2 className="text-2xl md:text-4xl font-bold md:drop-shadow-lg">One Skill at a Time</h2>
                 </div>
                 <br/>
                 <div
