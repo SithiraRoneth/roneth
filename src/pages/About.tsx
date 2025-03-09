@@ -32,13 +32,14 @@ function About() {
         { name: "CSS", image: assets.css },
         { name: "HTML", image: assets.html },
         { name: "React", image: assets.react },
-        { name: "Tailwind CSS", image: assets.tc },
+        { name: "TailwindCSS", image: assets.tc },
         { name: "Node.js", image: assets.node },
         { name: "Express.js", image: assets.ex },
         { name: "MongoDB", image: assets.mdb },
         { name: "MySQL", image: assets.mysql },
         { name: "JavaScript", image: assets.js },
         { name: "TypeScript", image: assets.ts },
+        { name: "ReactNative", image: assets.rn },
     ];
 
     return (
@@ -95,7 +96,7 @@ function About() {
                 </div>
                 <br/>
                 <div
-                    className="grid grid-cols-3 sm:grid-cols-4 md:flex md:flex-wrap md:w-[1100px] md:ml-[12%] gap-8 md:gap-10 mt-10 justify-center items-center">
+                    className="grid grid-cols-3 sm:grid-cols-4 md:flex md:flex-wrap md:w-[1100px] md:ml-[12%] gap-8 md:gap-10 mt-10 justify-center items-center md:py-4">
                     {skills.map((skill, idx) => (
                         <motion.div
                             key={idx}
@@ -109,7 +110,7 @@ function About() {
                             <motion.img
                                 src={skill.image}
                                 alt={skill.name}
-                                className="w-20 h-20 object-contain mx-auto"
+                                className="w-20 h-20 object-contain mx-auto md:hover:grayscale"
                                 whileHover={{
                                     y: -10,
                                 }}

@@ -20,10 +20,12 @@ import mdb from '../assets/icons/mongo.png'
 import tc from '../assets/icons/tailwind.png'
 import node from '../assets/icons/node.png'
 import ts from '../assets/icons/typeScript.png'
+import rn from '../assets/icons/react native.png'
 import green from '../assets/images/greenShadow.png'
 import chat  from '../assets/images/chat.png'
 import vtec from '../assets/images/vtec.png'
 import gemini from '../assets/images/gemini.png'
+import pos from '../assets/images/pos.png'
 export const assets = {
     about_pic,
     call,
@@ -47,8 +49,10 @@ export const assets = {
     react,
     node,
     ts,
+    rn,
     green,
     chat,
     vtec,
     gemini,
+    pos,
 }
