@@ -38,18 +38,19 @@ function About() {
         { name: "MongoDB", image: assets.mdb },
         { name: "MySQL", image: assets.mysql },
         { name: "JavaScript", image: assets.js },
+        { name: "TypeScript", image: assets.ts },
     ];
 
     return (
         <>
             <div className="flex flex-col md:flex-row items-center justify-center md:justify-start px-6 md:px-16 py-12 text-white md:mt-28 md:ml-52">
-                <div className="relative w-full md:w-[350px] h-auto md:h-[450px] grayscale mb-8 md:mb-0 overflow-hidden rounded-lg">
+                <div className="relative w-full md:w-[350px] h-auto md:h-[450px] grayscale mb-8 md:mb-0 overflow-hidden rounded-lg ">
                     <AnimatePresence mode="wait">
                         <motion.img
                             key={images[index]}
                             src={images[index]}
                             alt="About"
-                            className="w-full h-full object-cover rounded-lg"
+                            className="w-full h-full object-cover rounded-lg "
                             initial={{ opacity: 0, scale: 0.95 }}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 0.95 }}
@@ -94,7 +95,7 @@ function About() {
                 </div>
                 <br/>
                 <div
-                    className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 gap-8 md:gap-10 mt-10 justify-center items-center">
+                    className="grid grid-cols-3 sm:grid-cols-4 md:flex md:flex-wrap md:w-[1100px] md:ml-[12%] gap-8 md:gap-10 mt-10 justify-center items-center">
                     {skills.map((skill, idx) => (
                         <motion.div
                             key={idx}
@@ -125,9 +126,9 @@ function About() {
                         </motion.div>
                     ))}
                 </div>
-
-
             </div>
+            <br/>
+            <br/>
             <br/>
             <br/>
         </>
