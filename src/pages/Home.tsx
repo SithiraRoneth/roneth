@@ -61,7 +61,7 @@ function Home() {
 
                 <h3 className="text-lg font-medium flex justify-center md:justify-start items-center gap-4 group md:mt-6 mt-10">
                     My Story
-                    <a href="/works" className="transition-transform duration-300 group-hover:translate-x-2">
+                    <a href="/about" className="transition-transform duration-300 group-hover:translate-x-2">
                         <img src={assets.arrow} alt="Arrow" className="w-5 h-5" />
                     </a>
                 </h3>
