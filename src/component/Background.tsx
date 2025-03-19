@@ -1,4 +1,5 @@
 import '../component/background.css'
+
 export default function Background() {
     return (
         <div className="area">

@@ -1,6 +1,6 @@
 import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router";
-import { useState, useEffect } from "react";
+import {createBrowserRouter, RouterProvider} from "react-router";
+import {useState, useEffect} from "react";
 import RootLayout from "./component/RootLayout.tsx";
 import Home from "./pages/Home.tsx";
 import About from "./pages/About.tsx";
@@ -11,13 +11,13 @@ import Loader from "./component/Loader.tsx";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <RootLayout />,
+        element: <RootLayout/>,
         children: [
-            { path: "/", element: <Home /> },
-            { path: "/home", element: <Home /> },
-            { path: "/about", element: <About /> },
-            { path: "/works", element: <Works /> },
-            { path: "/contact", element: <Contact /> },
+            {path: "/", element: <Home/>},
+            {path: "/home", element: <Home/>},
+            {path: "/about", element: <About/>},
+            {path: "/works", element: <Works/>},
+            {path: "/contact", element: <Contact/>},
         ],
     },
 ]);
@@ -31,7 +31,7 @@ function App() {
         }, 3000);
     }, []);
 
-    return loading ? <Loader /> : <RouterProvider router={router} />;
+    return loading ? <Loader/> : <RouterProvider router={router}/>;
 }
 
 export default App;
